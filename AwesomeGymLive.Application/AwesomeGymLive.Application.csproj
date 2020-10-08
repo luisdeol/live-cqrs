@@ -4,4 +4,18 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="Commands\DeactivateStudent\" />
+    <Folder Include="Queries\GetDetails\" />
+    <Folder Include="Queries\SearchStudent\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MediatR" Version="9.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\AwesomeGymLive.Domain\AwesomeGymLive.Domain.csproj" />
+  </ItemGroup>
+
 </Project>

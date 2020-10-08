@@ -5,6 +5,10 @@ VisualStudioVersion = 16.0.30523.141
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AwesomeGymLive.Application", "AwesomeGymLive.Application\AwesomeGymLive.Application.csproj", "{E39444DF-23FE-4153-9861-F5B2ED8BC1B6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AwesomeGymLive.API", "AwesomeGymLive.API\AwesomeGymLive.API.csproj", "{32E870D9-C05D-4F98-89BA-7859E05C770A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AwesomeGymLive.Domain", "AwesomeGymLive.Domain\AwesomeGymLive.Domain.csproj", "{2BD2665D-9011-4574-A34D-DDD70588AF7C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{E39444DF-23FE-4153-9861-F5B2ED8BC1B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E39444DF-23FE-4153-9861-F5B2ED8BC1B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E39444DF-23FE-4153-9861-F5B2ED8BC1B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{32E870D9-C05D-4F98-89BA-7859E05C770A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32E870D9-C05D-4F98-89BA-7859E05C770A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32E870D9-C05D-4F98-89BA-7859E05C770A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32E870D9-C05D-4F98-89BA-7859E05C770A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2BD2665D-9011-4574-A34D-DDD70588AF7C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2BD2665D-9011-4574-A34D-DDD70588AF7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2BD2665D-9011-4574-A34D-DDD70588AF7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2BD2665D-9011-4574-A34D-DDD70588AF7C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
